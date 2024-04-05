@@ -1,0 +1,24 @@
+.TblShadw {
+    box-shadow: 0 5px 10px #11111170;
+}
+
+.TblShadw th,
+.TblShadw td {
+    border: 1px solid #19191915;
+    padding: 8px;
+    background-color: none;
+}
+
+/* Estilos para la tabla con border-radius */
+table {
+    border-collapse: collapse;
+    /* Fusionar bordes de celda */
+    width: 80%;
+    /* Ancho de la tabla */
+    margin: 20px auto;
+    /* Centrar la tabla en el documento */
+    border-radius: 10px;
+    /* Radio de las esquinas */
+    overflow: hidden;
+    /* Ocultar cualquier contenido que sobresalga del radio */
+}
